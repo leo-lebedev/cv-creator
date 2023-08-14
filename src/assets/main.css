@@ -1,0 +1,77 @@
+@import url(./fonts/font.css);
+@import url(./styles/component.css);
+@import url(./styles/setting.css);
+@import url(./styles/cv_styles.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "candara";
+}
+
+.container-fluid {
+    display: flex;
+}
+
+#cv {
+    font-family: "poppins";
+}
+
+.me {
+    display: none;
+}
+
+@media screen and (max-width: 1230px) {
+    .container-fluid {
+        position: relative;
+        display: none !important;
+    }
+
+    .me {
+        position: relative;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 280px;
+        background: #fff;
+        border: 1px solid #eee;
+        border-radius: 50px;
+        text-align: center;
+        padding: 0.5rem;
+        z-index: 2;
+    }
+
+    #app::after {
+        position: absolute;
+        content: "";
+        background: url(../assets/images/vue.gif) no-repeat;
+        background-size: 90%;
+        background-position: center;
+        border: 4px dotted rgb(222, 225, 227);
+        border-radius: 20px;
+        text-align: center;
+        display: flex;
+        height: 95vh;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .me {
+        display: flex !important;
+    }
+}

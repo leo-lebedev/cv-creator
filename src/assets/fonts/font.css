@@ -1,0 +1,17 @@
+
+
+
+/* CANDARA
+ */
+@font-face {
+    font-family: "candara";
+    src: url(./Candara.ttf);
+}
+@font-face {
+    font-family: "candara-bold";
+    src: url(./Candara_Bold.ttf);
+}
+@font-face {
+    font-family: "candara-italic";
+    src: url(./Candara_Bold_Italic.ttf);
+}

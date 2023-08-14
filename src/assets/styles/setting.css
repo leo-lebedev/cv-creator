@@ -1,0 +1,59 @@
+:root {
+    --dark: #222;
+    --light: #eee;
+
+    --clrx: #000;
+}
+
+.clrx {
+    color: var(--clrx);
+}
+
+input,
+textarea {
+    outline: none;
+    border: 1px solid #4f555d2a;
+    box-shadow: unset !important;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #000000c9;
+    transition: 0.2s;
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+
+.main-cv {
+    width: 21cm;
+    height: 29.7cm;
+    min-height: 29.7cm;
+    max-height: 29.7cm;
+    background: #ffffff;
+    box-shadow: 0 10px 80px #495a6113;
+    border: 1px solid #b7bfca48;
+}
+
+::selection {
+    background: #6055f7;
+    color: #fff;
+}
+
+.btn{
+    border: 1px solid transparent !important;
+}
+.btn:hover
+{
+    transform: scale(.98);
+    transition: 0.2s;
+    border: 1px solid #40474b !important;
+}
+.btn:active
+{
+    color: #000;
+    transition: 0s;
+}

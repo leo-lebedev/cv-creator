@@ -1,0 +1,97 @@
+{
+  "settings": {
+    "cv": "ru",
+    "languages": {
+      "cv_languages": "языки",
+      "cv_colors": "цвета",
+      "cv_personal_details": "Персональная информация",
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "job_title": "Должность / Текущая работа",
+      "about_me": "обо мне",
+      "contact": "Контакт",
+      "phone": "Телефон",
+      "location": "Расположение",
+      "skills": "Навыки",
+      "tech": "профессиональные навыки",
+      "soft": "Мягкие навыки",
+      "language": "Языки",
+      "add_language": "Add new language",
+      "social": "Социальные сети",
+      "experience": "Опыт",
+      "add_experience": "Add new experience",
+      "from": "От",
+      "to": "до",
+      "summary": "Краткое содержание",
+      "educationsAndCertifications": "Образование",
+      "add_educationsAndCertifications": "Add new line"
+    },
+    "colors": "#000",
+    "buttons": {
+      "print_or_download": "Распечатать или скачать в формате (PDF)",
+      "download_as_json": "Скачать как JSON",
+      "update_json_file": "Обновить JSON-файл",
+      "remove_all_data": "удалить все данные"
+    }
+  },
+  "personal_details": {
+    "first_name": "Эдд",
+    "last_name": "Ширан",
+    "job_title": "Должность",
+    "about_me": "обо мне",
+    "email": "mail@gmail.com",
+    "phone": "99-999-99-99",
+    "location": "Беларусь, Минск"
+  },
+  "skills": {
+    "isTech": true,
+    "tech": [
+      "Майкрософт",
+      "Word",
+      "Совершенный разум",
+      "Excel"
+    ],
+    "isSoft": true,
+    "soft": [
+      "Позитив",
+      "Лидерство",
+      "Публичное выступление"
+    ],
+    "isAllLanguage": true,
+    "language": [
+      {
+        "isLanguage": true,
+        "name": "Английский",
+        "level": 60
+      }
+    ]
+  },
+  "socials": {
+    "github": "",
+    "twitter": "@username",
+    "instagram": "@username",
+    "linkedin": "@username",
+    "telegram": "",
+    "web": ""
+  },
+  "experiences": [
+    {
+      "isExperience": true,
+      "title": "Заголовок",
+      "location": "Беларусь, Минск",
+      "from": "2012",
+      "to": "2018",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero mollitia et velit nemo? Qui ratione consectetur quos molestiae nobis aut, dolore molestias, ab libero dolor quis debitis inventore accusamus est sed doloremque? Vero asperiores quasi aspernatur architecto soluta, laudantium pariatur, ipsam voluptatem repellendus iste mollitia amet, explicabo aliquam maxime optio temporibus nulla tempora veritatis consectetur animi! Veniam odit repellat itaque! Corporis quas pariatur id commodi."
+    }
+  ],
+  "educationsAndCertifications": [
+    {
+      "isTrue": true,
+      "title": "Заголовок",
+      "location": "Беларусь, Минск",
+      "from": "2012",
+      "to": "2018",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero mollitia et velit nemo? Qui ratione consectetur quos molestiae nobis aut, dolore molestias, ab libero dolor quis debitis inventore accusamus est sed doloremque? Vero asperiores quasi aspernatur architecto soluta, laudantium pariatur, ipsam voluptatem repellendus iste mollitia amet, explicabo aliquam maxime optio temporibus nulla tempora veritatis consectetur animi! Veniam odit repellat itaque! Corporis quas pariatur id commodi."
+    }
+  ]
+}
